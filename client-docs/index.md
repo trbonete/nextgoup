@@ -2,6 +2,8 @@
 
 Bem-vindo à documentação oficial do sistema Nextgoup. Este manual foi criado especialmente para nossos clientes, com o objetivo de facilitar o uso de todas as funcionalidades da plataforma.
 
+> 🔄 **Última atualização:** Setembro 2025
+
 ## 📚 Como usar esta documentação
 
 Esta documentação está organizada em seções para facilitar sua navegação:
