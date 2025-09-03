@@ -1,4 +1,4 @@
-name: Deploy Client Documentation
+name: Deploy Client Documentation to GitHub Pages
 
 on:
   push:
