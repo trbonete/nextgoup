@@ -3,7 +3,7 @@ name: Deploy Client Documentation to GitHub Pages
 on:
   push:
     branches: [ main ]
-    paths: [ 'client-docs/**' ]
+    paths: [ 'docs/client-docs/**' ]
   workflow_dispatch:
 
 permissions:
@@ -42,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: client-docs/dist-client-docs
+          path: docs/client-docs/dist-client-docs
 
   deploy:
     environment:

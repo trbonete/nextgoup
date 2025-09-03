@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Nextgoup - Sistema de gestão empresarial",
   "scripts": {
-    "clientdocs:dev": "vitepress dev client-docs",
-    "clientdocs:build": "vitepress build client-docs",
-    "clientdocs:preview": "vitepress preview client-docs"
+    "clientdocs:dev": "vitepress dev docs/client-docs",
+    "clientdocs:build": "vitepress build docs/client-docs",
+    "clientdocs:preview": "vitepress preview docs/client-docs"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-rc.31"
