@@ -1,0 +1,20 @@
+{
+  "name": "nextgoup",
+  "version": "1.0.0",
+  "description": "Nextgoup - Sistema de gestão empresarial",
+  "scripts": {
+    "clientdocs:dev": "vitepress dev client-docs",
+    "clientdocs:build": "vitepress build client-docs",
+    "clientdocs:preview": "vitepress preview client-docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  },
+  "keywords": [
+    "documentation",
+    "vitepress",
+    "nextgoup"
+  ],
+  "author": "Nextgoup Team",
+  "license": "MIT"
+}

@@ -1,0 +1,84 @@
+/**
+ * Estilos customizados para o manual do cliente
+ * Mantém compatibilidade com dark mode padrão do VitePress
+ */
+
+:root {
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #747bff;
+  --vp-c-brand-3: #9499ff;
+  
+  /* Tipografia melhorada para legibilidade */
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --vp-font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+/* Largura confortável para leitura */
+.vp-doc {
+  max-width: 768px;
+}
+
+/* Melhorar contraste em alertas */
+.custom-block.tip {
+  border-color: var(--vp-c-brand-1);
+}
+
+.custom-block.tip .custom-block-title {
+  color: var(--vp-c-brand-1);
+}
+
+.custom-block.warning {
+  border-color: #e2aa53;
+}
+
+.custom-block.warning .custom-block-title {
+  color: #e2aa53;
+}
+
+.custom-block.danger {
+  border-color: #e13238;
+}
+
+.custom-block.danger .custom-block-title {
+  color: #e13238;
+}
+
+/* Melhorar tabelas */
+.vp-doc table {
+  margin: 1.5em 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+/* Espaçamento melhorado para listas */
+.vp-doc ol li,
+.vp-doc ul li {
+  margin: 0.5em 0;
+  line-height: 1.6;
+}
+
+/* Destacar códigos inline */
+.vp-doc :not(pre) > code {
+  background-color: var(--vp-c-mute);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Mermaid diagrams */
+.mermaid {
+  text-align: center;
+  margin: 2em 0;
+}
